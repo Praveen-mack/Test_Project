@@ -18,6 +18,10 @@ struct ContentView: View {
             Text("Hello, there!")
             
             Text("This is the test")
+            
+            Image(systemName: "sun.max")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
         }
         .padding()
     }
